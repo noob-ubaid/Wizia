@@ -75,6 +75,21 @@ function NavbarArea() {
             </Link>
           </NavbarMenuItem>
         ))}
+        <NavbarMenuItem>
+          <NavbarContent className="mt-3" justify="center">
+            <NavbarItem className="">
+              <Link className="bg-primary text-[#002228] text-sm font-work font-medium rounded-full py-[10px] px-4" href="#">Book a Demo</Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Button as={Link} className="text-sm font-work font-medium rounded-full bg-transparent py-[10px] px-4 text-white border border-white md:flex" href="#">
+                Contact Us
+              </Button>
+            </NavbarItem>
+        </NavbarContent>
+        </NavbarMenuItem>
+
+        
+
       </NavbarMenu>
     </Navbar>
   );
