@@ -1,13 +1,17 @@
 import './App.css'
-import Company from './components/Company'
-import Hero from './components/Hero'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavbarArea from './components/NavbarArea'
+import HomePage from './components/HomePage';
 function App() {
   return (
     <>
-      <NavbarArea/>
-      <Hero/>
-      <Company/>
+      <BrowserRouter>
+        <NavbarArea/>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+        </Routes>
+      </BrowserRouter>
+      
     </>
   )
 }
