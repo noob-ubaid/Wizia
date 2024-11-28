@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Company from './Company'
 import Offers from './Offers'
 import Train from './Train'
+import Slider from './Slider'
 const HomePage = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const HomePage = () => {
         <Company/>
         <Offers/>
         <Train/>
+        <Slider/>
     </>
   )
 }
