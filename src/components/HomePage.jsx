@@ -4,6 +4,7 @@ import Company from './Company'
 import Offers from './Offers'
 import Train from './Train'
 import Slider from './Slider'
+import Effort from './Effort'
 const HomePage = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const HomePage = () => {
         <Offers/>
         <Train/>
         <Slider/>
+        <Effort/>
     </>
   )
 }
