@@ -5,6 +5,7 @@ import Offers from './Offers'
 import Train from './Train'
 import Slider from './Slider'
 import Effort from './Effort'
+import GetStarted from './GetStarted'
 const HomePage = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Train/>
         <Slider/>
         <Effort/>
+        <GetStarted/>
     </>
   )
 }
