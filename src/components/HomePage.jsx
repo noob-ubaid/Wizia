@@ -6,6 +6,7 @@ import Train from './Train'
 import Slider from './Slider'
 import Effort from './Effort'
 import GetStarted from './GetStarted'
+import Footer from './Footer'
 const HomePage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const HomePage = () => {
         <Slider/>
         <Effort/>
         <GetStarted/>
+        <Footer/>
     </>
   )
 }
